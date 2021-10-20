@@ -1,5 +1,5 @@
 export class GroupiesComponentsLibrary {
   public name(): string {
-    return 'GroupiesComponentsLibrary';
+    return 'GroupiesComponentsLibrary V2!';
   }
 }

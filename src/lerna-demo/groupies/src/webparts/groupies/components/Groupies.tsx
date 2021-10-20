@@ -1,21 +1,27 @@
 import * as React from 'react';
 import styles from './Groupies.module.scss';
 import { IGroupiesProps } from './IGroupiesProps';
-import { escape } from '@microsoft/sp-lodash-subset';
+
+import { GroupiesServicesLibrary } from 'groupies-services';
+import { GroupiesComponentsLibrary } from 'groupies-ui';
 
 export default class Groupies extends React.Component<IGroupiesProps, {}> {
   public render(): React.ReactElement<IGroupiesProps> {
+
+    const serviceLib = new GroupiesServicesLibrary();
+    const serviceLibName = serviceLib.name();
+
+    const uiLib = new GroupiesComponentsLibrary();
+    const uiLibName = uiLib.name();
+
     return (
       <div className={ styles.groupies }>
         <div className={ styles.container }>
           <div className={ styles.row }>
             <div className={ styles.column }>
-              <span className={ styles.title }>Welcome to SharePoint!</span>
-              <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>
-              <p className={ styles.description }>{escape(this.props.description)}</p>
-              <a href="https://aka.ms/spfx" className={ styles.button }>
-                <span className={ styles.label }>Learn more</span>
-              </a>
+              <span className={ styles.title }>Welcome to CollabDays Barcelona 2021 !!!!!</span>
+              <p>Testing GroupiesServices: {serviceLibName}</p>
+              <p>Testing GroupiesComponents: {uiLibName}</p>
             </div>
           </div>
         </div>

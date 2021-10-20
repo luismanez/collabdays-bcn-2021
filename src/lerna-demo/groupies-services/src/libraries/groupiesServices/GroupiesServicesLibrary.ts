@@ -1,5 +1,5 @@
 export class GroupiesServicesLibrary {
   public name(): string {
-    return 'GroupiesServicesLibrary';
+    return 'GroupiesServicesLibrary updated';
   }
 }
