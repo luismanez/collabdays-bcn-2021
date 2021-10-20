@@ -1,0 +1,9 @@
+{
+  "id": "deaaa424-824e-42b6-ada6-19ab3b6d04d3",
+  "alias": "GroupiesComponentsLibrary",
+  "componentType": "Library",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2
+}

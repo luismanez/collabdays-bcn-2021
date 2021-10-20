@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "groupies-client-side-solution",
+    "id": "a5f9580a-d10a-4cd9-9d92-ce9841208f40",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.13.0-rc.1"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/groupies.sppkg"
+  }
+}
