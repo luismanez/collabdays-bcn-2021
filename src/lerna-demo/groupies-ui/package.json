@@ -10,8 +10,13 @@
     "serve": "gulp serve --nobrowser",
     "shipit": "gulp bundle --ship && gulp package-solution --ship"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
   "devDependencies": {
+    "@types/react": "16.9.51",
+    "@types/react-dom": "16.9.8",
     "@microsoft/sp-build-web": "1.13.0-rc.1",
     "@microsoft/sp-tslint-rules": "1.13.0-rc.1",
     "@microsoft/sp-module-interfaces": "1.13.0-rc.1",
