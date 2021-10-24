@@ -11,17 +11,19 @@ import * as strings from 'GroupiesWebPartStrings';
 import Groupies from './components/Groupies';
 import { IGroupiesProps } from './components/IGroupiesProps';
 
+import { MSGraphClientFactory } from "@microsoft/sp-http";
+
 export interface IGroupiesWebPartProps {
   description: string;
 }
 
 export default class GroupiesWebPart extends BaseClientSideWebPart<IGroupiesWebPartProps> {
-
   public render(): void {
     const element: React.ReactElement<IGroupiesProps> = React.createElement(
       Groupies,
       {
-        description: this.properties.description
+        description: this.properties.description,
+        graphClientFactory: this.context.msGraphClientFactory
       }
     );
 

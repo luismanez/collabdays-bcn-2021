@@ -5,7 +5,6 @@ interface IGraphGroupProps {
     description: string;
 }
 
-
 export class GraphGroup extends React.Component<IGraphGroupProps, {}> {
     public render(): React.ReactElement<IGraphGroupProps> {
         return (
