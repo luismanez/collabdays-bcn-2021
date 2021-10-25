@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kill-ie-11-demo-client-side-solution",
+    "id": "21dfa426-11ce-4ace-86e3-cab08a63ab55",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.13.0-rc.1"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/kill-ie-11-demo.sppkg"
+  }
+}

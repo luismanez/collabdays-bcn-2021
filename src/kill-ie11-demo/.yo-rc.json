@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.13.0-rc.1",
+    "libraryName": "kill-ie-11-demo",
+    "libraryId": "21dfa426-11ce-4ace-86e3-cab08a63ab55",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
